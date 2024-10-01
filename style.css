@@ -1,0 +1,128 @@
+/*Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+.global-btn {
+  width: 140px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+.global-section {
+  padding: 3rem 0;
+}
+.global-heading {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.global-heading-p {
+  color: #7b7b7b;
+  text-align: center;
+}
+/* This is Header */
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+.main-menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+/* First Section */
+.first-section {
+  background-image: url(./images/about.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10rem 0;
+  text-align: center;
+}
+.first-section p {
+  font-size: 2rem;
+}
+.first-section h2 {
+  font-size: 5rem;
+  margin: 10px 0;
+}
+/* About Us Section */
+.about-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.about-sub-div2 {
+  width: 500px;
+}
+.about-sub-div2 h2 {
+  font-size: 33px;
+}
+.about-sub-div2 p {
+  color: #7b7b7b;
+  margin: 15px 0;
+}
+/* This is service area */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-single-item {
+  padding: 50px;
+  text-align: center;
+}
+.grid-single-item h2 {
+  margin: 15px 0;
+}
+.grid-single-item p {
+  color: #7b7b7b;
+}
+.custom-icon-size {
+  font-size: 60px;
+}
+/* Work Section */
+.work-single-img {
+  width: 390px;
+}
+/* Testimonial Section */
+.testimonial-p {
+  color: black !important;
+  margin-top: 5px;
+}
+/* Contact Section */
+.contact-heading {
+  font-size: 55px;
+  text-align: center;
+}
+form {
+  margin-left: 28rem;
+  margin-top: 20px;
+}
+form input {
+  width: 450px;
+}
+form textarea {
+  width: 450px;
+}
+.submit-btn {
+  width: 150px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+/* This is Footer */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 3rem;
+}
+footer p {
+  padding-top: 15px;
+}
